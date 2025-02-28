@@ -1,0 +1,36 @@
+.movie-card{
+  display: flex;
+  flex-direction: column;
+  background: #001d09;
+  padding: 0 20px;
+  padding-top: 10px;
+  border-radius: 12px;
+  border: 0.5px solid rgb(67, 67, 67);
+  align-items: center;
+}
+
+.movie-card:hover{
+  .movie-card img{
+    transform: scale(1.1);
+  }
+}
+
+.movie-card img{
+  border-radius: 12px;
+}
+
+.movie-card h4{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.save-div{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+i{
+  font-size: 25px;
+  cursor: pointer;
+}
