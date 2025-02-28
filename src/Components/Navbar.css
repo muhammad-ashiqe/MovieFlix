@@ -1,12 +1,18 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 10px 50px;
   align-items: center;
+  background: rgb(0, 75, 0);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .title{
-  color: rgb(0, 177, 59);
+  color:white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
 }

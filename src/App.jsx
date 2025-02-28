@@ -5,6 +5,7 @@ import Row from "./Components/Row";
 import requests from "./Api.js";
 import Categories from "./Components/Categories.jsx";
 
+
 function App() {
   return (
     <>

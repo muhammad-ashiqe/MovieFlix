@@ -1,11 +1,12 @@
 .banner {
-  height: 80vh;
+  height: auto;
   padding: 20px;
   width: 100%;
   overflow: hidden;
   border-radius: 12px;
   background: transparent;
   margin-bottom: 20px;
+  padding-top: 150px;
 }
 
 .banner .img-container {
